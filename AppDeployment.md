@@ -111,13 +111,13 @@ sudo apt-get install nginx -y
 
 ## Install NodeJS
 
-1. Open terminal/bash window and now nstall Nodejs.
+1. Open terminal/bash window and now install Nodejs.
 
     ```
     sudo apt install nodejs -y
     ```
 
-2. Upgrade python software.
+2. Upgrade python software properties.
     
     ```
     sudo apt install python-software-properties
@@ -155,7 +155,7 @@ sudo apt-get install nginx -y
     sudo npm install pm2 -g
     ```
 
-2. Run your test again in VS Code to see if pm2 was installed correctly i
+2. Run your test again in VS Code to see if pm2 was installed correctly.
 
     ```
     rake spec
