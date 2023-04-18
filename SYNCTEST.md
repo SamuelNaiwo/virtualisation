@@ -64,7 +64,7 @@
 
 # Install NodeJS
 
-1. Install Nodejs through your terminal/bash.
+1. Open terminal/bash window and now nstall Nodejs.
 
     ```
     sudo apt install nodejs -y
@@ -92,7 +92,7 @@
     nodejs --version
     ```
 
-6. Run your test again to see if Nodejs was installed correctly.
+6. Run your test again in VS Code to see if Nodejs was installed correctly.
 
     ```
     rake spec
@@ -100,13 +100,13 @@
 
 # Install PM2
 
-1. Run the follow command to install pm2. This is a package manager for Node.
+1. Open terminal/bash windown and run the following command to install pm2. This is a package manager for Node.
 
     ```
     sudo npm install pm2 -g
     ```
 
-2. Run your test again to see if pm2 was installed correctly.
+2. Run your test again in VS Code to see if pm2 was installed correctly i
 
     ```
     rake spec
