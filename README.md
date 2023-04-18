@@ -28,7 +28,7 @@ To have a place for a developer to test anything they want without worrying abou
 - `port`            displays information about guest port mappings
 - `powershell`      connects to machine via powershell remoting
 - `provision`       provisions the vagrant machine
-- `push`           deploys code in this environment to a configured destination
+- `push`            deploys code in this environment to a configured destination
 - `rdp`             connects to machine via RDP
 - `reload`          restarts vagrant machine, loads new Vagrantfile configuration
 - `resume`          resume a suspended vagrant machine
