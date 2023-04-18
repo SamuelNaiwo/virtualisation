@@ -1,5 +1,17 @@
 # Virtualisation
 
+### What is a Virtual Machine?
+
+A Virtual Machine (VM) is a compute resource that uses software instead of a physical computer to run programs and deploy apps.
+
+### What is a Development Environment?
+
+A dev envirmonment is a space consisting of tools to allow developers to develop an application.
+
+### What is the purpose of a Development Environment?
+
+To have a place for a developer to test anything they want without worrying about it affecting any end-users or content editors working on a live website.
+
 ## Vagrant Commands
 
 - `autocomplete`    manages autocomplete installation on host
