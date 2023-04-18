@@ -62,36 +62,78 @@
    pm2
    ```
 
-8. Install Nodejs through your terminal/bash.
+# Install NodeJS
+
+1. Install Nodejs through your terminal/bash.
 
     ```
     sudo apt install nodejs -y
     ```
 
-9. d
+2. d
     
     ```
     sudo apt install python-software-properties
     ```
 
-10. Install Nodejs version that we need.
+3. Install Nodejs version that we need.
 
     `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
 
-11. Run same command to install the current version we just downloaded.
+4. Run same command to install the current version we just downloaded.
     
     ```
     sudo apt install nodejs -y
     ```
 
-12. Check to see what version you have.
+5. Check to see what version you have.
     
     ```
     nodejs --version
     ```
 
-13. Run your test again to see if Nodejs was installed correctly.
+6. Run your test again to see if Nodejs was installed correctly.
 
     ```
     rake spec
+    ```
+
+# Install PM2
+
+1. Run the follow command to install pm2. This is a package manager for Node.
+
+    ```
+    sudo npm install pm2 -g
+    ```
+
+2. Run your test again to see if pm2 was installed correctly.
+
+    ```
+    rake spec
+    ```
+
+# Run The Application
+
+1. Open terminal/bash window and cd into app folder.
+   
+   ```
+   cd app
+   ```
+
+2. Check to see that everything is in your folder.
+
+    ```
+    ls
+    ```
+
+3. Run the following command to install.
+
+    ```
+    npm install
+    ```
+
+4. Run the app.
+
+    ```
+    node app.js
     ```
