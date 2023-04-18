@@ -205,3 +205,32 @@ sudo systemctl restart nginx
     ```
     192.168.10.100:300
     ```
+
+## How to provision all the steps?
+
+1. Open your provision.sh file in VS code
+
+2. Add more lines to the provision.sh file. 
+- `sudo apt-get install python-software-properties -y` to install dependencies.
+- `curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -` which "grabs" exact distribution of software. In this case NodeJS version 6.x that we want.
+- `sudo apt-get install nodejs -y` to use that version that we just "grabbed" and put it into effect.
+- `sudo npm install pm2 -g` to install pm2.
+- `cd app` to navigate to app folder where we want to install npm.
+- `npm install` it use pm2 dependency to install npm.
+- `node app.js` or `npm start` to run the application.
+  
+  ![Alt text](img/new_provision.png)
+
+3. Open your terminal is VS Code and create your vagrant machine using the below command.
+   
+   ```
+   vagrant up
+   ```
+
+4. Check to see if the app is up and running by putting the ip address in your browser.
+   
+   ```
+   192.168.10.100:3000
+   ```
+
+   ![Alt text](img/works_again.png)
