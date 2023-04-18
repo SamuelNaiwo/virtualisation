@@ -22,6 +22,8 @@
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install nginx -y
+sudo systemctl enable nginx
+sudo systemctl restart nginx
 ```
 
 ![Alt text](img/provision%20file%20for%20automation.png)
@@ -40,26 +42,36 @@ sudo apt-get install nginx -y
 
 2. To sync app folder to virtual machine use the command below.
    
-    `config.vm.synced_folder "app", "/home/vagrant/app"`
+    ```
+    config.vm.synced_folder "app", "/home/vagrant/app"
+    ```
 
 
 3. Run the following command to start the vagrant environment. 
 
-    `vagrant up`
+    ```
+    vagrant up
+    ```
 
 4. Open your terminal/bash
 
 5. Make sure you're in the right folder where your vagrant file and app folder is, then ssh in.
 
-    `vagrant ssh`
+    ```
+    vagrant ssh
+    ```
 
 6. Check to see that the app folder is in your virtual machine.
 
-    `ls`
+    ```
+    ls
+    ```
 
 7. Change directory into your app folder in your virtual machine.
 
-    `cd app`
+    ```
+    cd app
+    ```
 
 ## Testing Environment
 
@@ -186,4 +198,10 @@ sudo apt-get install nginx -y
     ```
     nmp start
     node app.js
+    ```
+
+5. Enter the ip address in your browser to confirm the app is running.
+
+    ```
+    192.168.10.100:300
     ```
