@@ -196,7 +196,7 @@ sudo systemctl restart nginx
 4. Run the app using one of the following commands
 
     ```
-    nmp start
+    npm start
     node app.js
     ```
 
