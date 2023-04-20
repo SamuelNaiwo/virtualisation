@@ -94,7 +94,7 @@ vagrant up
 
 5. Use the command `ls` again to check.
 
-# Set Up MongoDB
+# Set Up MongoDB In Virtual Machine
 
 1. Cd into db virtual machine
    
