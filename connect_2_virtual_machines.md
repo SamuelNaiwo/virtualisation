@@ -1,5 +1,7 @@
 # How To Connect Two Virtual Machines
 
+Testing CI from GitHub with Tech221
+
 1. Open two seperate terminal/bash windows.
 
 2. Change directory into virtualisation folder in both terminals.
