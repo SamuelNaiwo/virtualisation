@@ -1,6 +1,6 @@
 # How To Connect Two Virtual Machines
 
-Testing CI from GitHub with Tech221
+Testing CI from GitHub with Tech221 again
 
 1. Open two seperate terminal/bash windows.
 
