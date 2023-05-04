@@ -1,6 +1,6 @@
 # How To Connect Two Virtual Machines
 
-Making changes and merging from dev branch to main branch through jenkins
+Making changes and merging from dev branch to main branch 12345
 
 1. Open two seperate terminal/bash windows.
 
