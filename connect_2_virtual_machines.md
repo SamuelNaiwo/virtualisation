@@ -1,6 +1,6 @@
 # How To Connect Two Virtual Machines
 
-Making changes and merging from dev to main 12345
+Making changes and merging from dev to main 123
 
 1. Open two seperate terminal/bash windows.
 
